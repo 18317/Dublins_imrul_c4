@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/av"
+    tools:context=".Information">
+
+    <LinearLayout
+        android:id="@+id/lname"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:text="Name"/>
+        <TextView
+            android:id="@+id/_name"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="20"
+            android:textSize="25dp"
+
+            android:background="#FFC6B4"
+            />
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/l_care"
+        android:layout_below="@id/lname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+
+            >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="2"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                   
+                    android:text="Number"/>
+                <TextView
+                    android:id="@+id/_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="20"
+                   />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="2"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                   
+                    android:text="Contract Name"/>
+                <TextView
+                    android:id="@+id/_contract_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="20"
+                   />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="2"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                   
+                    android:text="Adress"/>
+                <TextView
+                    android:id="@+id/_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="20"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                   />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="2"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                   
+                    android:text="Postion"/>
+                <TextView
+                    android:id="@+id/_postion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="20"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                   />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="2"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                   
+                    android:text="Banking"/>
+                <TextView
+                    android:id="@+id/_banking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="20"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                   />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="2"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                   
+                    android:text="Bike stand"/>
+                <TextView
+                    android:id="@+id/_bike_stand"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="20"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                   />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="2"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                   
+                    android:text="Available Bike Stand"/>
+                <TextView
+                    android:id="@+id/_avilable_bike_stand"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="20"
+                   />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="2"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                   
+                    android:text="Avilable Bikes"/>
+                <TextView
+                    android:id="@+id/_avilable_bikes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="20"
+                   />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="2"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                   
+                    android:text="Bouns"/>
+                <TextView
+                    android:id="@+id/_bonus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="20"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                   />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="2"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                   
+                    android:text="Status"/>
+                <TextView
+                    android:id="@+id/_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="20"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                   />
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/l_map"
+        android:layout_below="@+id/l_care"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/l34"/>
+
+    <TextView
+        android:layout_below="@id/l_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Station Details"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+</RelativeLayout>
