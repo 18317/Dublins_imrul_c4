@@ -75,6 +75,7 @@ class RV_dublin_adopter(var list: ArrayList<DUBLIN_MODEL?>?, var context: Contex
         var status: TextView
         var bouns: TextView
         var card : CardView
+        var s :String= ""
         // setup veribale
         init {
             number = itemView.findViewById(R.id.cv_number)
@@ -91,4 +92,5 @@ class RV_dublin_adopter(var list: ArrayList<DUBLIN_MODEL?>?, var context: Contex
             card = itemView.findViewById(R.id.cv_card)
         }
     }
+
 }
