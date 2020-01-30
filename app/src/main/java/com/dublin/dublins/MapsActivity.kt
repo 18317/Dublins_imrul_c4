@@ -1,8 +1,5 @@
 package com.dublin.dublins
-//(MD .IMRUL MAHAMUD
-//STUDENT ID:18317
-//MD.ROKIBUL ISLAM
-//STUDENT ID:18315
+
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -15,7 +12,10 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import org.json.JSONObject
-
+//(MD .IMRUL MAHAMUD
+//STUDENT ID:18317
+//MD.ROKIBUL ISLAM
+//STUDENT ID:18315
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
     // Map veriable
@@ -51,10 +51,5 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
         }
 
-
-        // Add a marker in Sydney and move the camera
-//        val sydney = LatLng(-34.0, 151.0)
-//        mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
-//        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
     }
 }

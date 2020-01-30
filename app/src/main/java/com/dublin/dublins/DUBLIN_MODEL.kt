@@ -1,12 +1,13 @@
 package com.dublin.dublins
 
+
+// Dublin city attributes
+
 //(MD .IMRUL MAHAMUD
 //STUDENT ID:18317
 //MD.ROKIBUL ISLAM
 //STUDENT ID:18315
 
-
-// Dublin city attributes
 class DUBLIN_MODEL(
     var number: String,
     var contract_name: String,

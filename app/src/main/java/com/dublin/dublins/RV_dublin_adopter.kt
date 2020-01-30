@@ -1,8 +1,4 @@
 package com.dublin.dublins
-//(MD .IMRUL MAHAMUD
-//STUDENT ID:18317
-//MD.ROKIBUL ISLAM
-//STUDENT ID:18315
 
 import android.content.Context
 import android.content.Intent
@@ -15,6 +11,10 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 
 import java.util.ArrayList
+//(MD .IMRUL MAHAMUD
+//STUDENT ID:18317
+//MD.ROKIBUL ISLAM
+//STUDENT ID:18315
 
 class RV_dublin_adopter(var list: ArrayList<DUBLIN_MODEL?>?, var context: Context)
     : RecyclerView.Adapter<RV_dublin_adopter.RVDA>() {

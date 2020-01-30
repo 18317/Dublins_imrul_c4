@@ -1,13 +1,13 @@
 package com.dublin.dublins
-//(MD .IMRUL MAHAMUD
-//STUDENT ID:18317
-//MD.ROKIBUL ISLAM
-//STUDENT ID:18315
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_information.*
+//(MD .IMRUL MAHAMUD
+//STUDENT ID:18317
+//MD.ROKIBUL ISLAM
+//STUDENT ID:18315
 
 class Information : AppCompatActivity() {
 

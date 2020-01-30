@@ -1,8 +1,4 @@
 package com.dublin.dublins
-//(MD .IMRUL MAHAMUD
-//STUDENT ID:18317
-//MD.ROKIBUL ISLAM
-//STUDENT ID:18315
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -24,6 +20,10 @@ import org.json.JSONArray
 import org.json.JSONException
 import org.json.JSONObject
 import java.util.ArrayList
+//(MD .IMRUL MAHAMUD
+//STUDENT ID:18317
+//MD.ROKIBUL ISLAM
+//STUDENT ID:18315
 
 class MainActivity : AppCompatActivity() {
     // API URL
