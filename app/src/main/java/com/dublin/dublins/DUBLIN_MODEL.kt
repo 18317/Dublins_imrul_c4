@@ -4,8 +4,7 @@ package com.dublin.dublins
 //STUDENT ID:18317
 //MD.ROKIBUL ISLAM
 //STUDENT ID:18315
-//TEFO MOLEMOHI
-//STUDENT ID:17852)
+
 
 // Dublin city attributes
 class DUBLIN_MODEL(

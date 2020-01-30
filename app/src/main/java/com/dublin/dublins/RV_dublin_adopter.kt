@@ -3,8 +3,7 @@ package com.dublin.dublins
 //STUDENT ID:18317
 //MD.ROKIBUL ISLAM
 //STUDENT ID:18315
-//TEFO MOLEMOHI
-//STUDENT ID:17852)
+
 import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
@@ -14,11 +13,11 @@ import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
-import com.student.dublin.RV_dublin_adopter.RVDA
+
 import java.util.ArrayList
 
 class RV_dublin_adopter(var list: ArrayList<DUBLIN_MODEL?>?, var context: Context)
-    : RecyclerView.Adapter<RVDA>() {
+    : RecyclerView.Adapter<RV_dublin_adopter.RVDA>() {
 
 
         //To make a list from recyler view widget

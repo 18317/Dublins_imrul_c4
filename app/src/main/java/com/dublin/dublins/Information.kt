@@ -3,8 +3,7 @@ package com.dublin.dublins
 //STUDENT ID:18317
 //MD.ROKIBUL ISLAM
 //STUDENT ID:18315
-//TEFO MOLEMOHI
-//STUDENT ID:17852)
+
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
